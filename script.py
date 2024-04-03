@@ -27,7 +27,7 @@ with open("usuarios.txt") as usuarios:
                 log.write(f"[{now.strftime('%Y-%m-%d %H:%M:%S')}] Error: {e}\n")
                 print(log.read())
         finally:
-            linea = usuarios.readline() #next
+            linea = usuarios.readline() 
 
 
 for i in instancias:
